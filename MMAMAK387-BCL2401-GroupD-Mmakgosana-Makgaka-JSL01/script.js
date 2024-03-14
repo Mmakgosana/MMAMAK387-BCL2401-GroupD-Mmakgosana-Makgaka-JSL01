@@ -11,7 +11,7 @@ function validateSyntax() {
 
         result='Valid syntax <span class="circle"></span>'; // The code set result to valid if the pattern matches
     }  else {
-        result = 'Invalid Syntax <span class=circle1"></span>'; // Set result to invalid if the pattern does not match 
+        result = 'Invalid Syntax <span class="invalid"></span>'; // Set result to invalid if the pattern does not match 
     }
     // The code is to display the validation result
     document.getElementById('result').innerHTML = result;
