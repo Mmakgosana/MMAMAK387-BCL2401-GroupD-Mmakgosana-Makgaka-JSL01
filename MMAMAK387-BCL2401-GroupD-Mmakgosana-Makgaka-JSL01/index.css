@@ -36,7 +36,7 @@ button:hover {
     margin-top: 20px;
 }
 
-.circle {
+.valid {
     display: inline-block;
     width: 25px;
     height: 25px;
@@ -44,14 +44,11 @@ button:hover {
     background-color: green;
 }
 
-.Invalid {
+.invalid {
     display: inline-block;
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    color: #ff4500;
+    background-color: #ff0000;
 }
 
-.emoji {
-    font-size: 1.5em;
-}
